@@ -3,7 +3,7 @@ import numpy as np
 
 modifPixVal, modifPixAfter, i = 0, 10, 0
 
-image1path = r'D:\Coding\Python\GVC\Images\image3.png'
+image1path = r'Images/image3.png'
 image1 = cv2.imread(image1path, cv2.IMREAD_COLOR)
 
 rows, columns, _ = image1.shape
